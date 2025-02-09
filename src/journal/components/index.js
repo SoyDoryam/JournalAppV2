@@ -1,1 +1,2 @@
-export * from './index.js'
+export * from './Navbar';
+export * from './SideBar';
