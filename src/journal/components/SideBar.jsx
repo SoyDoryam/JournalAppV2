@@ -1,7 +1,7 @@
 import { TurnedInNot } from '@mui/icons-material'
 import { Box, Divider, Drawer, Grid, List, ListItem, ListItemButton, ListItemIcon, ListItemText, Toolbar, Typography } from '@mui/material'
 
-export const SideBar = ({drawerWhidth = 240}) => {
+export const SideBar = ({drawerWhidth = 280}) => {
   return (
     <Box 
         component='nav'
