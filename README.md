@@ -33,3 +33,17 @@ La estructura de archivos de la aplicación es la siguiente:
 - **AppTheme.jsx**: Define la configuración del tema de la aplicación.
 - **purpleTheme.js**: Archivo que define el tema morado de la aplicación.
 - **index.js**: Importa y configura el tema principal de la aplicación.
+
+## Capturas de Pantalla
+
+### Página de Inicio
+![Página Login](assets/screenshots/Login)
+
+### Página de Inicio
+![Página Login](assets/screenshots/Register)
+
+### Vista de Notas
+![Register](assets/screenshots/Diario)
+
+### Vista de Notas
+![Register](assets/screenshots/NoteView)
