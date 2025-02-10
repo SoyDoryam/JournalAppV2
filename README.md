@@ -37,13 +37,14 @@ La estructura de archivos de la aplicación es la siguiente:
 ## Capturas de Pantalla
 
 ### Página de Inicio
-![Página Login](assets/screenshots/Login.png)
+![Página Login](https://github.com/SoyDoryam/JournalAppV2/raw/main/assets/screenshots/Login.png)
 
-### Página de Inicio
-![Página Register](assets/screenshots/Register.png)
-
-### Vista de Notas
-![Vista Diario](assets/screenshots/Diario.png)
+### Página de Registro
+![Página Register](https://github.com/SoyDoryam/JournalAppV2/raw/main/assets/screenshots/Register.png)
 
 ### Vista de Notas
-![Vista NoteView](assets/screenshots/NoteView.png)
+![Vista Diario](https://github.com/SoyDoryam/JournalAppV2/raw/main/assets/screenshots/Diario.png)
+
+### Vista de Notas
+![Vista NoteView](https://github.com/SoyDoryam/JournalAppV2/raw/main/assets/screenshots/NoteView.png)
+
