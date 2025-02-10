@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# JournalApp 📓
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descripción
+Este proyecto es una aplicación de diario que permite a los usuarios crear y gestionar notas de manera sencilla y eficiente. La aplicación está estructurada con componentes reutilizables y un diseño modular para facilitar su mantenimiento y ampliación.
 
-## Available Scripts
+## Estructura del Proyecto
 
-In the project directory, you can run:
+La estructura de archivos de la aplicación es la siguiente:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Descripción de las carpetas y archivos principales:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **index.js**: El punto de entrada principal para la aplicación.
+- **JournalApp.jsx**: El componente raíz de la aplicación.
+- **style.css**: Archivos de estilo globales para la aplicación.
 
-### `npm test`
+#### Carpeta `auth`
+- **layout/AuthLayout.jsx**: Define el diseño para las páginas de autenticación (inicio de sesión y registro).
+- **pages**: Contiene las páginas de autenticación: LoginPage.jsx y RegisterPage.jsx.
+- **routes/AuthRoutes.jsx**: Define las rutas relacionadas con la autenticación.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Carpeta `journal`
+- **components**: Componentes reutilizables como el `Navbar`, `SideBar`, y `ImageGallery`.
+- **layout/JournalLayout.jsx**: Define el diseño general de la parte del diario.
+- **pages/JournalPage.jsx**: Página principal del diario donde se muestran las notas.
+- **routes/JournalRoutes.jsx**: Define las rutas principales del diario.
+- **views**: Contiene vistas específicas, como `NoteView.jsx` y `NothingSelectedView.jsx`.
 
-### `npm run build`
+#### Carpeta `router`
+- **AppRouter.jsx**: Define las rutas de la aplicación.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Carpeta `theme`
+- **AppTheme.jsx**: Define la configuración del tema de la aplicación.
+- **purpleTheme.js**: Archivo que define el tema morado de la aplicación.
+- **index.js**: Importa y configura el tema principal de la aplicación.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Instrucciones de instalación
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Clona este repositorio en tu máquina local.
+   ```bash
+   git clone <url_del_repositorio>
