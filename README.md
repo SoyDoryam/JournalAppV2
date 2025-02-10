@@ -33,9 +33,3 @@ La estructura de archivos de la aplicación es la siguiente:
 - **AppTheme.jsx**: Define la configuración del tema de la aplicación.
 - **purpleTheme.js**: Archivo que define el tema morado de la aplicación.
 - **index.js**: Importa y configura el tema principal de la aplicación.
-
-## Instrucciones de instalación
-
-1. Clona este repositorio en tu máquina local.
-   ```bash
-   git clone <url_del_repositorio>
